@@ -1,0 +1,11 @@
+version: '2'
+ 
+services:
+  mysql:
+    restart: always
+    image: mysql
+    container_name: mysql-server
+    ports:
+      - 6603:3306
+    volumes:
+      - /mysqldb:/var/lib/mysql
