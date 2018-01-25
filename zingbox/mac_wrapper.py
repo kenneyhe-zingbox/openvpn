@@ -148,8 +148,6 @@
 import re
 import os
 
-import MySQLdb
-
 #from pyovpn.plugin import *
 
 # Optionally set this string to a known public IP address (such as the
